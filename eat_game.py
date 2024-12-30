@@ -13,7 +13,7 @@ def play():
         computer_choice = random.choice(options)
         
         if user_choice == computer_choice:
-            return "Let's eat"
+            return f"Let's eat {user_choice}"
             break
         else:
             return f"You chose {user_choice}, but the computer suggested {computer_choice}"
